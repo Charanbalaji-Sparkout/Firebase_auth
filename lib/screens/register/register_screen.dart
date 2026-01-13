@@ -37,8 +37,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final email = emailController.text.trim();
-    final password = passwordController.text.trim();
+    // final email = emailController.text.trim();
+    // final password = passwordController.text.trim();
 
     return Scaffold(
       appBar: AppBar(title: const Text('Get Started!')),

@@ -37,8 +37,8 @@ class _DeleteScreenState extends State<DeleteScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final email = emailController.text.trim();
-    final password = passwordController.text.trim();
+    // final email = emailController.text.trim();
+    // final password = passwordController.text.trim();
 
     return Scaffold(
       appBar: AppBar(title: const Text('Delete User')),

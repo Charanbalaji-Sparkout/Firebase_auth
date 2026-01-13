@@ -39,8 +39,8 @@ class _ResetScreenState extends State<ResetScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final email = emailController.text.trim();
-    final password = passwordController.text.trim();
+    // final email = emailController.text.trim();
+    // final password = passwordController.text.trim();
     return Scaffold(
       appBar: AppBar(title: const Text('Reset Password')),
       body: SingleChildScrollView(
